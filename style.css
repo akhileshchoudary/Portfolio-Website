@@ -366,9 +366,16 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+ 
+  border-radius: 1rem;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;     /* Shows full image without cropping */
+  display: block;
+  margin: 0 auto;
+  background-color: #f0f0f0;  /* Optional: light gray background */
+  padding: 0.5rem;            /* Optional: space around image */
+
 }
 
 .project-title {
